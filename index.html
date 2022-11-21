@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Any downloader</title>
+</head>
+<body>
+
+    
+    <h1>Any Downloader</h1>
+    <div class="main">
+    <a href="https://getintopc.today/" target="_blank"><button class="c1">Software download</button></a><br><br>
+    <a href="https://m.apkpure.com/" target="_blank"><button class="c1">App download</button></a><br><br>
+    <a href="https://www.y2mate.com/en439" target="_blank"><button class="c1">Youtube video</button></a><br><br>
+    <a href="https://youtubemultidownloader.net/" target="_blank"><button class="c1">YouTube playlist video</button></a><br><br>
+    <a href="https://snapsave.app/" target="_blank"><button class="c1">Facebook video</button></a><br><br>
+    <a href="https://unsplash.com/" target="_blank"><button class="c1">4k walpaper</button></a><br><br>
+    <a href="https://www.videezy.com/" target="_blank"><button class="c1">Free copyright footage</button></a><br><br>
+    <a href="https://www.movies-watch.com.pk/" target="_blank"><button class="c1">Bollywood movie</button></a><br><br>
+    <a href="https://moviesmod.com/" target="_blank"><button class="c1">Hollywood movie</button></a><br><br>
+    <a href="https://www.coolgenerator.com/" target="_blank"><button class="c1">Stylish text</button></a><br><br>
+    <a href="https://www.flaticon.com/" target="_blank"><button class="c1">Vector icon</button></a><br>
+    </div>
+
+<style>
+    body{
+        background-color: #222222;
+    }
+    h1{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+    }
+ .main{
+    margin: auto;
+    width: fit-content;
+ }
+    .c1 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.c1:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.c1:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+</style>
+
+</body>
+</html>
