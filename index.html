@@ -1,32 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="test.css">
-    <title>Any downloader</title>
-</head>
-<body>
-
-    
-    <h1>Any Downloader</h1>
-    <div class="main">
-    <a href="https://getintopc.today/" target="_blank"><button class="c1">Software download</button></a><br><br>
-    <a href="https://m.apkpure.com/" target="_blank"><button class="c1">App download</button></a><br><br>
-    <a href="https://www.y2mate.com/en439" target="_blank"><button class="c1">Youtube video</button></a><br><br>
-    <a href="https://youtubemultidownloader.net/" target="_blank"><button class="c1">YouTube playlist video</button></a><br><br>
-    <a href="https://snapsave.app/" target="_blank"><button class="c1">Facebook video</button></a><br><br>
-    <a href="https://unsplash.com/" target="_blank"><button class="c1">4k walpaper</button></a><br><br>
-    <a href="https://www.videezy.com/" target="_blank"><button class="c1">Free copyright footage</button></a><br><br>
-    <a href="https://www.movies-watch.com.pk/" target="_blank"><button class="c1">Bollywood movie</button></a><br><br>
-    <a href="https://moviesmod.com/" target="_blank"><button class="c1">Hollywood movie</button></a><br><br>
-    <a href="https://www.coolgenerator.com/" target="_blank"><button class="c1">Stylish text</button></a><br><br>
-    <a href="https://www.flaticon.com/" target="_blank"><button class="c1">Vector icon</button></a><br>
-    </div>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-    body{
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 2px solid #ccc;
+  background-color: #f1f1f1;
+  width: fit-content;
+  margin: auto;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #48ff00;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Style the buttons */
+body{
         background-color: #222222;
     }
     h1{
@@ -108,7 +127,74 @@
   top: 0;
   border-radius: 10px;
 }
-</style>
 
+</style>
+</head>
+<body>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Any downloader</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Online software</button>
+</div><br>
+
+<div id="London" class="tabcontent">
+  <div class="main">
+    <a href="https://getintopc.today/" target="_blank"><button class="c1">Software download</button></a><br><br>
+    <a href="https://m.apkpure.com/" target="_blank"><button class="c1">App download</button></a><br><br>
+    <a href="https://www.y2mate.com/en439" target="_blank"><button class="c1">Youtube video</button></a><br><br>
+    <a href="https://youtubemultidownloader.net/" target="_blank"><button class="c1">YouTube playlist video</button></a><br><br>
+    <a href="https://snapsave.app/" target="_blank"><button class="c1">Facebook video</button></a><br><br>
+    <a href="https://unsplash.com/" target="_blank"><button class="c1">4k walpaper</button></a><br><br>
+    <a href="https://www.vecteezy.com/" target="_blank"><button class="c1">Free copyright footage</button></a><br><br>
+    <a href="https://www.movies-watch.com.pk/" target="_blank"><button class="c1">Bollywood movie</button></a><br><br>
+    <a href="https://moviesmod.com/" target="_blank"><button class="c1">Hollywood movie</button></a><br><br>
+    <a href="https://www.coolgenerator.com/" target="_blank"><button class="c1">Stylish text</button></a><br><br>
+    <a href="https://www.flaticon.com/" target="_blank"><button class="c1">Vector icon</button></a><br>
+    </div>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <div class="main">
+    <a href="https://www.photopea.com/" target="_blank"><button class="c1">Online photoshop</button></a><br><br>
+    <a href="https://app.runwayml.com/login" target="_blank"><button class="c1">Online video editor</button></a><br><br>
+    <a href="https://hotpot.ai/colorize-picture" target="_blank"><button class="c1">Colorize B&W</button></a><br><br>
+    <a href="https://ezgif.com/maker" target="_blank"><button class="c1">Online GIF maker</button></a><br><br>
+    <a href="https://www.canva.com/" target="_blank"><button class="c1">Online template</button></a><br><br>
+    <a href="https://magicstudio.com/magiceraser" target="_blank"><button class="c1">Background remover</button></a><br><br>
+    <a href="https://www.qrcode-monkey.com/#wifi" target="_blank"><button class="c1">Online QR maker</button></a><br><br>
+    <a href="https://www.ginifab.com/feeds/qr_code/qr_code_scanner.html" target="_blank"><button class="c1">Online QR scanner</button></a><br><br>
+
+    <a href="https://www.protectedtext.com/" target="_blank"><button class="c1">Online Notepad</button></a><br><br>
+    <a href="https://avro.im/" target="_blank"><button class="c1">Online keyboard</button></a><br><br>
+    <a href="https://www.online-convert.com/" target="_blank"><button class="c1">Online Converter</button></a><br><br>
+    <a href="https://www.chess.com/home" target="_blank"><button class="c1">Online Chess</button></a><br><br>
+    <a href="https://trycolors.com/" target="_blank"><button class="c1">Online color mixing</button></a><br><br>
+    <a href="https://www.programiz.com/html/online-compiler/" target="_blank"><button class="c1">Online code editor</button></a><br><br>
+    </div>
+  
+</div>
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
 </body>
-</html>
+</html> 
